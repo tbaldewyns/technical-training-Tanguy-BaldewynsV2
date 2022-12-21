@@ -1,10 +1,12 @@
 {
-    "name": "Estate",  # The name that will appear in the App list
-    "version": "16.0",  # Version
-    "application": True,  # This line says the module is an App, and not a module
+    'name': "estate",
+    'summary': """Project for HELB Student""",
+    'author': "My Company",
+    'website': "http://www.yourcompany.com",
+    'category': 'Uncategorized',
+    'version': '16.0.0.1',
+    'license': 'LGPL-3',
     'depends': ['base', 'sale_management', 'calendar', 'hr'],
     'data': ["views/res_groups.xml", "views/sale_order.xml"
-    ],
-    "installable": True,
-    'license': 'LGPL-3',
+    ]
 }
